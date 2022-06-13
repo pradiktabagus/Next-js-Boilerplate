@@ -14,4 +14,11 @@ module.exports = withBundleAnalyzer({
   // So, the source code is "basePath-ready".
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
+  env: {
+    BASE_URL_LOCAL: process.env.BASE_URL_LOCAL,
+  },
+  compiler: {
+    // ssr and displayName are configured by default
+    styledComponents: true,
+  },
 });

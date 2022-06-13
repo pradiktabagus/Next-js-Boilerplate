@@ -22,7 +22,8 @@ const Index = () => {
         />
       </a>
       <h1 className="text-2xl font-bold">
-        Boilerplate code for your Nextjs project with Tailwind CSS
+        Boilerplate code for your Nextjs project with Tailwind CSS and
+        styled-component
       </h1>
       <p>
         <span role="img" aria-label="rocket">
@@ -34,7 +35,7 @@ const Index = () => {
           ⚡️
         </span>{' '}
         Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS.
+        VSCode, Netlify, PostCSS, Tailwind CSS, styled-component.
       </p>
       <h2 className="text-lg font-semibold">Next js Boilerplate Features</h2>
       <p>Developer experience first:</p>
@@ -54,7 +55,7 @@ const Index = () => {
           </span>{' '}
           Integrate with{' '}
           <a href="https://tailwindcss.com" rel="nofollow">
-            Tailwind CSS
+            Tailwind CSS and styled-component
           </a>
         </li>
         <li>
